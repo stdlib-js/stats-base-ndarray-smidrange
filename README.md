@@ -50,6 +50,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
+import smidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smidrange@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-smidrange/tags). For example,
+
+```javascript
 import smidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smidrange@v0.1.0-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ The function has the following parameters:
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import smidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smidrange@v0.1.0-deno/mod.js';
+import smidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smidrange@deno/mod.js';
 
 var xbuf = uniform( 10, -50.0, 50.0, {
     'dtype': 'float32'
