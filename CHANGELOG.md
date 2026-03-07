@@ -2,6 +2,52 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-07)
+
+<section class="features">
+
+### Features
+
+-   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - **feat:** add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Sachin Pangal
+-   Samarth Kolarkar
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
