@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,44 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { float32ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the mid-range of a one-dimensional single-precision floating-point ndarray.
+* Computes the mid-range of a one-dimensional single-precision floating-point ndarray.
 *
-* @module @stdlib/stats-base-ndarray-smidrange
+* @param arrays - array-like object containing an input ndarray
+* @returns mid-range
 *
 * @example
 * var Float32Array = require( '@stdlib/array-float32' );
 * var ndarray = require( '@stdlib/ndarray-base-ctor' );
-* var smidrange = require( '@stdlib/stats-base-ndarray-smidrange' );
 *
-* var xbuf = new Float32Array( [ 1.0, -2.0, 4.0, 2.0 ] );
+* var xbuf = new Float32Array( [ 1.0, -2.0, 2.0, 4.0 ] );
 * var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var v = smidrange( [ x ] );
 * // returns 1.0
 */
-
-// MODULES //
-
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils-try-require' );
-var isError = require( '@stdlib/assert-is-error' );
-var main = require( './main.js' );
-
-
-// MAIN //
-
-var smidrange;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	smidrange = main;
-} else {
-	smidrange = tmp;
-}
+declare function smidrange( arrays: [ float32ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = smidrange;
+export = smidrange;
