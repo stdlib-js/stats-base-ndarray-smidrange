@@ -1,5 +1,5 @@
-"use strict";var n=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var t=n(function(x,a){
-var s=require('@stdlib/ndarray-base-numel-dimension/dist'),v=require('@stdlib/ndarray-base-stride/dist'),q=require('@stdlib/ndarray-base-offset/dist'),d=require('@stdlib/ndarray-base-data-buffer/dist'),m=require('@stdlib/stats-strided-smidrange/dist').ndarray;function o(e){var r=e[0];return m(s(r,0),d(r),v(r,0),q(r))}a.exports=o
-});var g=require("path").join,f=require('@stdlib/utils-try-require/dist'),c=require('@stdlib/assert-is-error/dist'),j=t(),i,u=f(g(__dirname,"./native.js"));c(u)?i=j:i=u;module.exports=i;
+"use strict";var s=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(n){throw (r=0, n)}};};var t=s(function(l,a){
+var v=require('@stdlib/ndarray-base-numel-dimension/dist'),q=require('@stdlib/ndarray-base-stride/dist'),d=require('@stdlib/ndarray-base-offset/dist'),m=require('@stdlib/ndarray-base-data-buffer/dist'),o=require('@stdlib/stats-strided-smidrange/dist').ndarray;function g(e){var r=e[0];return o(v(r,0),m(r),q(r,0),d(r))}a.exports=g
+});var f=require("path").join,c=require('@stdlib/utils-try-require/dist'),j=require('@stdlib/assert-is-error/dist'),p=t(),i,u=c(f(__dirname,"./native.js"));j(u)?i=p:i=u;module.exports=i;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map

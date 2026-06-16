@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-08)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`d505c57`](https://github.com/stdlib-js/stdlib/commit/d505c57edb6d9e989a1dea07432f17e6ac608ebb) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`7564e0f`](https://github.com/stdlib-js/stdlib/commit/7564e0f86e6a9a4c28affc29b1ef524f1cb43314) - **feat:** add C implementation for `stats/base/ndarray/smidrange` [(#10057)](https://github.com/stdlib-js/stdlib/pull/10057) _(by Samarth Kolarkar, Philipp Burckhardt, Sachin Pangal)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 -   Sachin Pangal
 -   Samarth Kolarkar
